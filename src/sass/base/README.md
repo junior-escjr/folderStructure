@@ -1,0 +1,1 @@
+Os arquivos que dão reset no html.

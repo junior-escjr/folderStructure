@@ -1,0 +1,1 @@
+Colocar o arquivo 'all.scss' nas demais pastas os arquivos vai ficar com o '_'(underline) antes do nome.
