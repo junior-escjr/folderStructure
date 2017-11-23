@@ -1,16 +1,19 @@
 # folderStructure
 
+Exemplo abaixo é de como ficará a organização das pastas no projeto com os arquivos em suas respectivas pastas.
+
 ```
 .root or theme project
 ├── gulp/
 |   ├── node_modules/
 |   ├── tasks/
-|   |   ├── clone-file.js
-|   |   ├── concat-min-js.js
-|   |   ├── sass.js 'converte o sass para css e minifica'
+|   |   ├── concat-js.js
+|   |   ├── concat-sass.js
+|   |   ├── min-css.js
+|   |   ├── min-js.js
 |   |   └── watch.js
 |   |
-|   ├── Gulpfile.js
+|   ├── gulpfile.js
 |   └── package.json
 |
 ├── src/
@@ -29,6 +32,7 @@
 |       |   |   └── _micro-mixins.scss
 |       |   |
 |       |   ├── _mixins.scss
+|       |   ├── _variables-grid.scss
 |       |   └── _variables.scss
 |       |
 |       ├── layout/
